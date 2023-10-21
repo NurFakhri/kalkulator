@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+  </head>
+
+  <body>
+    <div>
+      <label for="angka1">Angka 1:</label>
+      <input type="number" id="angka1" />
+    </div>
+
+    <div>
+      <label for="angka2">Angka 2:</label>
+      <input type="number" id="angka2" />
+    </div>
+
+    <div>
+      <button onclick="hitung('+')">+</button>
+      <button onclick="hitung('-')">-</button>
+      <button onclick="hitung('x')">x</button>
+      <button onclick="hitung('/')">/</button>
+      <button onclick="hitung('sin')">sin</button>
+      <button onclick="hitung('cos')">cos</button>
+      <button onclick="hitung('tan')">tan</button>
+      <button onclick="hitung('pangkat')">pangkat</button>
+      <button onclick="hitung('akar')">akar</button>
+      <button onclick="hitung('log')">log</button>
+    </div>
+
+    <script src="math.js"></script>
+  </body>
+</html>
